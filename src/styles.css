@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .task-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .task-board input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .task-column {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 200px;
+    min-height: 300px;
+    background-color: #f4f4f4;
+  }
+  
+  .task-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: grab;
+  }
+  
+  .task-card h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .task-card p {
+    margin: 5px 0 0;
+    font-size: 14px;
+  }
+  
